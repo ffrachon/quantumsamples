@@ -15,5 +15,7 @@
         "extensions": "quantum"
         }
     },
-    "postCreateCommand": "pip install azure-quantum[qiskit]"
+    "postCreateCommand": "pip install azure-quantum[qiskit]",
+    "postCreateCommand": "az login --use-device-code"
+    
 }
