@@ -13,5 +13,13 @@
         "editorconfig.editorconfig",
         "ms-python.python"
     ],
-    "runArgs": ["-e","IQSHARP_HOSTING_ENV=SAMPLES_DEVCONTAINER"]
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {
+        "version": "3.11.2",
+        "installJupyterlab": "true"
+        },
+    "ghcr.io/devcontainers/features/azure-cli:1": {
+        "extensions": "quantum"
+        }
+  }
 }
