@@ -1,0 +1,7 @@
+FROM mcr.microsoft.com/devcontainers/universal:2
+
+# Install .NET 6
+RUN wget https://dot.net/v1/dotnet-install.sh \
+    && chmod +x dotnet-install.sh \
+    && ./dotnet-install.sh -c 6.0 \
+    && rm dotnet-install.sh
