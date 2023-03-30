@@ -13,6 +13,7 @@
         },
     "ghcr.io/devcontainers/features/azure-cli:1": {
         "extensions": "quantum"
-        }
+        },
+    "postCreateCommand": "pip install azure-quantum[qiskit]"
   }
 }
