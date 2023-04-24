@@ -15,5 +15,5 @@
         "extensions": "quantum"
         }
     },
-    "postCreateCommand": "wget https://dot.net/v1/dotnet-install.sh && chmod +x dotnet-install.sh && ./dotnet-install.sh -c 6.0 && rm dotnet-install.sh && pip install azure-quantum[qiskit]"
+    "postCreateCommand": "wget https://dot.net/v1/dotnet-install.sh && chmod +x dotnet-install.sh && ./dotnet-install.sh -c 6.0 && rm dotnet-install.sh && pip install azure-quantum[qiskit] && pip install qiskit_nature"
 }
